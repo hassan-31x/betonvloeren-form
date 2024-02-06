@@ -3,6 +3,7 @@ import Header from "../base/Header";
 import { client } from "../utils/client";
 import Photo from "./Photo";
 
+export const revalidate = 60;
 export default async function Index() {
   const gallery = await client.fetch('*[_type == "gallery"][0]');
   const uiData = await client.fetch('*[_type == "uiComponents"][0]');
