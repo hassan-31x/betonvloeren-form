@@ -1,0 +1,749 @@
+// 1460px
+@include xxxlg-xxxxlg {
+  @include modal-xxxlg-xxxxlg;
+}
+// 1340px
+@include xxlg-xxxlg {
+  // base start
+  h1 {
+    font-size: 120px;
+    line-height: 110px;
+  }
+  h2 {
+    &.uniq {
+      font-size: 62px;
+    }
+  }
+  .promo {
+    &__text {
+      font-size: 18px;
+      a {
+        font-size: 18px;
+      }
+    }
+    img {
+      width: 100px;
+    }
+  }
+  .auto__container {
+    padding: 0 40px;
+  }
+  main {
+    &.pt {
+      padding-top: 175.59px;
+    }
+  }
+  @include nav-xxlg-xxxlg;
+  @include header-xxlg-xxxlg;
+  // base end
+  //   index page start
+  @include intro-xxlg-xxxlg;
+  @include infobar-xxlg-xxxlg;
+  @include side-xxlg-xxxlg;
+  @include wrap-xxlg-xxxlg;
+  @include content-xxlg-xxxlg;
+  @include offer-xxlg-xxxlg;
+  @include contact-xxlg-xxxlg;
+
+  .sponsor {
+    &__item {
+      width: 75px;
+      margin-right: 12px;
+    }
+  }
+  //   index page end
+}
+// 1240px
+@include xxlg-xxxlg-extra {
+  // base start
+  @include footer-xxlg-xxxlg-extra;
+  // base end
+  //   index page start
+  @include side-xxlg-xxxlg-extra;
+  @include content-xxlg-xxxlg-extra;
+  @include wrap-xxlg-xxxlg-extra;
+  @include interested-xxlg-xxxlg-extra;
+  //   index page end
+}
+// 1180px
+@include xlg-xxlg {
+  // base start
+  h2 {
+    font-size: 36px;
+    &.uniq {
+      font-size: 56px;
+    }
+  }
+  main {
+    &.pt {
+      padding-top: 161.59px;
+    }
+  }
+  .auto__container {
+    padding: 0 30px;
+  }
+  .button {
+    &__row {
+      .button {
+        &.secondary {
+          &.phone {
+            &.blue {
+              font-size: 32px;
+              padding: 22px 0;
+              svg {
+                margin-right: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include header-xlg-xxlg;
+  @include footer-xlg-xxlg;
+  // base end
+  //   index page start
+  @include intro-xlg-xxlg;
+  @include infobar-xlg-xxlg;
+  @include detail-xlg-xxlg;
+  @include content-xlg-xxlg;
+  @include side-xlg-xxlg;
+  @include interested-xlg-xxlg;
+  @include review-xlg-xxlg;
+  @include offer-xlg-xxlg;
+  .sponsor {
+    &__item {
+      width: 70px;
+      margin-right: 12px;
+    }
+  }
+  //   index page end
+}
+// 1024px
+@include lg-xlg {
+  // base start
+  h1 {
+    font-size: 105px;
+    line-height: 95px;
+  }
+  h2 {
+    font-size: 43px;
+    &.uniq {
+      font-size: 48px;
+    }
+  }
+  .button {
+    &__row {
+      .button {
+        &.secondary {
+          &.phone {
+            &.blue {
+              font-size: 38px;
+              padding: 19px 0;
+              svg {
+                margin-right: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  main {
+    &.pt {
+      padding-top: 159.19px;
+    }
+  }
+  .promo {
+    &__text {
+      font-size: 16px;
+      a {
+        font-size: 16px;
+      }
+    }
+    img {
+      width: 90px;
+      margin-left: 8px;
+    }
+  }
+  @include footer-lg-xlg;
+  // base end
+  //   index page start
+  @include intro-lg-xlg;
+  @include side-lg-xlg;
+  @include content-lg-xlg;
+  @include wrap-lg-xlg;
+  @include wrapper-lg-xlg;
+  @include detail-lg-xlg;
+  @include review-lg-xlg;
+  @include modal-lg-xlg;
+  @include contact-lg-xlg;
+  .sponsor {
+    &__item {
+      width: 60px;
+      height: 30px;
+      margin-right: 12px;
+    }
+  }
+  //   index page end
+}
+// 990px
+@include lg-xlg-extra {
+  // base start
+  h1 {
+    font-size: 100px;
+    line-height: 90px;
+  }
+  h2 {
+    &.uniq {
+      font-size: 42px;
+    }
+  }
+  main {
+    &.pt {
+      padding-top: 146.8px;
+    }
+  }
+  .promo {
+    &__text {
+      font-size: 14px;
+      a {
+        font-size: 14px;
+      }
+    }
+    img {
+      width: 80px;
+      margin-left: 8px;
+    }
+  }
+  @include header-lg-xlg-extra;
+  @include nav-lg-xlg-extra;
+  // base end
+  //   index page start
+  @include intro-lg-xlg-extra;
+  @include infobar-lg-xlg-extra;
+  .sponsor {
+    &__item {
+      width: 50px;
+      height: 25px;
+      margin-right: 8px;
+    }
+  }
+  //   index page end
+}
+// 840px
+@include md-lg {
+  // base start
+  h1 {
+    font-size: 95px;
+    line-height: 82px;
+  }
+  h2 {
+    &.uniq {
+      font-size: 38px;
+    }
+  }
+  main {
+    &.pt {
+      padding-top: 202.2px;
+    }
+  }
+  .promo {
+    &__text {
+      font-size: 20px;
+      a {
+        font-size: 20px;
+      }
+    }
+    img {
+      width: 115px;
+      margin-left: 12px;
+    }
+  }
+  .auto__container {
+    padding: 0 24px;
+  }
+  @include header-md-lg;
+  @include nav-md-lg;
+  @include footer-md-lg;
+  // base end
+  //   index page start
+  @include intro-md-lg;
+  @include infobar-md-lg;
+  @include detail-md-lg;
+  @include interested-md-lg;
+  @include review-md-lg;
+  @include modal-md-lg;
+  @include photo-md-lg;
+  @include offer-md-lg;
+  @include contact-md-lg;
+  //   index page end
+}
+//768px
+@include extra-md-lg {
+  // base start
+  h1 {
+    font-size: 85px;
+    line-height: 75px;
+  }
+  h2 {
+    font-size: 36px;
+    &.big {
+      font-size: 46px;
+    }
+  }
+  main {
+    &.pt {
+      padding-top: 165.59px;
+    }
+  }
+  .promo {
+    &__text {
+      font-size: 16px;
+      a {
+        font-size: 16px;
+      }
+    }
+    img {
+      width: 100px;
+      margin-left: 8px;
+    }
+  }
+  .button {
+    &__row {
+      .button {
+        &.secondary {
+          &.phone {
+            &.blue {
+              font-size: 32px;
+              padding: 22px 0;
+              svg {
+                margin-right: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include header-extra-md-lg;
+  @include nav-extra-md-lg;
+  @include footer-extra-md-lg;
+  // base end
+  //   index page start
+  @include intro-extra-md-lg;
+  @include infobar-extra-md-lg;
+  @include detail-extra-md-lg;
+  @include content-extra-md-lg;
+  @include wrapper-extra-md-lg;
+  @include interested-extra-md-lg;
+  @include review-extra-md-lg;
+  @include modal-extra-md-lg;
+  @include contact-extra-md-lg;
+  //   index page end
+}
+// 600px
+@include sm-md-extra {
+  // base start
+  h1 {
+    font-size: 75px;
+    line-height: 65px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    &.big {
+      font-size: 38px;
+      line-height: 46px;
+    }
+    &.large {
+      font-size: 48px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    &.sm {
+      font-size: 24px;
+    }
+    &.uniq {
+      font-size: 30px;
+    }
+    &.big {
+      font-size: 34px;
+      line-height: 50px;
+    }
+  }
+  h4 {
+    font-size: 24px;
+    &.big {
+      font-size: 28px;
+    }
+  }
+  h5 {
+    font-size: 24px;
+    &.sm {
+      font-size: 20px;
+      line-height: 50px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    &.big {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    &.big {
+      font-size: 18px;
+    }
+    &.xbig {
+      font-size: 24px;
+      line-height: 42px;
+    }
+    &.extra {
+      font-size: 22px;
+      line-height: 42px;
+    }
+    &.uniq {
+      font-size: 22px;
+      line-height: 42px;
+    }
+    &.extrasm {
+      font-size: 22px;
+      line-height: 38px;
+    }
+    &.uniqsm {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+  main {
+    &.pt {
+      padding-top: 163.3px;
+    }
+  }
+  .promo {
+    &__text {
+      font-size: 14px;
+      a {
+        font-size: 14px;
+      }
+    }
+    img {
+      width: 80px;
+      margin-left: 8px;
+    }
+  }
+  .button {
+    &.bluebt {
+      font-size: 28px;
+      padding: 32px 0;
+    }
+    &__row {
+      .button {
+        &.link {
+          font-size: 22px;
+          width: calc(50% - 8px);
+        }
+        &.primary {
+          width: calc(50% - 8px) !important;
+          font-size: 20px !important;
+          padding: 16px 0 !important;
+        }
+        &.secondary {
+          &.phone {
+            &.blue {
+              width: calc(50% - 8px);
+              font-size: 22px;
+              padding: 13px 0;
+              svg {
+                width: 18px;
+                height: 18px;
+                margin-right: 16px;
+                margin-bottom: -2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include nav-sm-md-extra;
+  @include footer-sm-md-extra;
+  // base end
+  //   index page start
+  @include intro-sm-md-extra;
+  @include infobar-sm-md-extra;
+  @include wrap-sm-md-extra;
+  @include content-sm-md-extra;
+  @include detail-sm-md-extra;
+  @include wrapper-sm-md-extra;
+  @include interested-sm-md-extra;
+  @include review-sm-md-extra;
+  @include difference-sm-md-extra;
+  @include contact-sm-md-extra;
+  //   index page end
+}
+// 540px
+@include xsm-sm {
+  // base start
+  h1 {
+    font-size: 60px;
+    line-height: 55px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 36px;
+    &.big {
+      font-size: 30px;
+      line-height: 42px;
+    }
+    &.large {
+      font-size: 38px;
+    }
+  }
+  h3 {
+    font-size: 22px;
+    &.sm {
+      font-size: 20px;
+    }
+    &.uniq {
+      font-size: 26px;
+    }
+    &.big {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+  h4 {
+    font-size: 20px;
+    &.big {
+      font-size: 24px;
+    }
+  }
+  h5 {
+    font-size: 22px;
+    &.sm {
+      font-size: 18px;
+      line-height: 38px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    &.big {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  p {
+    font-size: 15px;
+    line-height: 24px;
+    &.big {
+      font-size: 18px;
+    }
+    &.xbig {
+      font-size: 20px;
+      line-height: 34px;
+    }
+    &.extra {
+      font-size: 18px;
+      line-height: 34px;
+    }
+    &.uniq {
+      font-size: 18px;
+      line-height: 34px;
+    }
+    &.extrasm {
+      font-size: 18px;
+      line-height: 32px;
+    }
+    &.uniqsm {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  .button {
+    &.bluebt {
+      font-size: 22px;
+      padding: 26px 0;
+    }
+    &__row {
+      .button {
+        &.link {
+          font-size: 18px;
+          width: calc(50% - 8px);
+        }
+        &.primary {
+          width: calc(50% - 8px) !important;
+          font-size: 16px !important;
+          padding: 15px 0 !important;
+        }
+        &.secondary {
+          &.phone {
+            &.blue {
+              width: calc(50% - 8px);
+              font-size: 18px;
+              padding: 12px 0;
+              svg {
+                width: 14px;
+                height: 14px;
+                margin-right: 12px;
+                margin-bottom: -2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  main {
+    &.pt {
+      padding-top: 110px;
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include footer-xsm-sm;
+  // base end
+  //   index page start
+  @include intro-xsm-sm;
+  @include infobar-xsm-sm;
+  @include wrap-xsm-sm;
+  @include content-xsm-sm;
+  @include detail-xsm-sm;
+  @include wrapepr-xsm-sm;
+  @include interested-xsm-sm;
+  @include review-xsm-sm;
+  @include difference-xsm-sm;
+  @include modal-xsm-sm;
+  @include photo-xsm-sm;
+  @include offer-xsm-sm;
+  @include contact-xsm-sm;
+  //   index page end
+}
+// 440px
+@include xxsm-xsm {
+  // base start
+  h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+    &.big {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    &.large {
+      font-size: 32px;
+    }
+    &.uniq {
+      font-size: 32px;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    &.sm {
+      font-size: 18px;
+    }
+    &.uniq {
+      font-size: 22px;
+    }
+    &.big {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+  h4 {
+    font-size: 16px;
+    &.big {
+      font-size: 20px;
+    }
+  }
+  h5 {
+    font-size: 18px;
+    &.sm {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    &.big {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  p {
+    font-size: 15px;
+    line-height: 22px;
+    &.big {
+      font-size: 18px;
+    }
+    &.xbig {
+      font-size: 20px;
+      line-height: 34px;
+    }
+    &.extra {
+      font-size: 18px;
+      line-height: 34px;
+    }
+    &.uniq {
+      font-size: 16px;
+      line-height: 28px;
+    }
+    &.extrasm {
+      font-size: 16px;
+      line-height: 28px;
+    }
+    &.uniqsm {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .button {
+    &.bluebt {
+      font-size: 18px;
+      padding: 20px 0;
+    }
+    &__row {
+      flex-direction: column;
+      .button {
+        &.link {
+          width: 100%;
+          margin-bottom: 16px;
+          text-align: center;
+        }
+        &.primary {
+          width: 100% !important;
+        }
+        &.secondary {
+          &.phone {
+            &.blue {
+              margin-bottom: 16px;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+  // base end
+  //   index page start
+  @include intro-xxsm-xsm;
+  @include infobar-xxsm-xsm;
+  @include wrap-xxsm-xsm;
+  @include content-xxsm-xsm;
+  @include wrapper-xxsm-xsm;
+  @include interested-xxsm-xsm;
+  @include review-xxsm-xsm;
+  @include footer-xxsm-xsm;
+  @include modal-xxsm-xsm;
+  @include photo-xxsm-xsm;
+  @include contact-xxsm-xsm;
+  //   index page end
+}

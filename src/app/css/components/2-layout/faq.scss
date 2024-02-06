@@ -1,0 +1,60 @@
+.faq {
+  border-bottom: 1px solid #e7ded4;
+  &__outer {
+    margin-bottom: 40px;
+    h3 {
+      padding-top: 8px;
+      margin-bottom: 16px;
+    }
+  }
+  &__title {
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    padding: 12px 30px 12px 0;
+    svg {
+      width: 16px;
+      height: 16px;
+      color: $textColor;
+      @include transition;
+      position: absolute;
+      top: 50%;
+      @include transformY;
+      right: 6px;
+    }
+  }
+  &__content {
+    display: none;
+    animation: appear 0.3s ease-in-out;
+    a {
+      @include transition;
+      &:hover {
+        opacity: 0.8;
+      }
+      display: block;
+      color: $textColor;
+      font-family: $mainFont;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  }
+  &.active {
+    .faq {
+      &__title {
+        h6 {
+          font-size: 20px;
+          font-weight: 700;
+          color: #fa9c07;
+        }
+        svg {
+          transform: translateY(-50%) rotate(-180deg);
+        }
+      }
+      &__content {
+        display: block;
+      }
+    }
+  }
+}

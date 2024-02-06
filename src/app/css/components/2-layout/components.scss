@@ -1,0 +1,389 @@
+h1 {
+  font-family: $mainFont;
+  color: $white;
+  font-size: 146px;
+  line-height: 130px;
+  letter-spacing: -0.06em;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 5px 16px 21px rgba($color: #9c8062, $alpha: 0.36);
+}
+h2 {
+  font-size: 43px;
+  line-height: 54px;
+  letter-spacing: -0.02em;
+  color: #535049;
+  font-weight: 900;
+  font-family: $mainFont;
+  &.big {
+    font-size: 52px;
+    line-height: 54px;
+    color: #625957;
+  }
+  &.large {
+    font-family: $mainFont;
+    font-weight: 900;
+    font-size: 65px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: #625957;
+  }
+  &.bold {
+    font-weight: 700;
+  }
+  &.uniq {
+    font-size: 74px;
+    line-height: 1;
+    letter-spacing: -0.06em;
+    font-family: $mainFont;
+    font-weight: 900;
+    color: $white;
+    text-shadow: -10px 24px 12px rgba(50, 51, 48, 0.19);
+  }
+}
+h3 {
+  font-size: 35px;
+  font-family: $mainFont;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #535049;
+  &.sm {
+    font-size: 30px;
+    font-weight: 500;
+    color: #646464;
+  }
+  &.reg {
+    font-weight: 400;
+  }
+  &.uniq {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: unset;
+    color: #8b7f7d;
+    font-weight: 400;
+  }
+  &.big {
+    font-size: 39px;
+    line-height: 54px;
+    color: #625957;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+  }
+}
+h4 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-family: $mainFont;
+  font-weight: 900;
+  color: $textColor;
+  letter-spacing: -0.02em;
+  &.big {
+    font-size: 33px;
+    letter-spacing: unset;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #685c4e;
+  }
+}
+h5 {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: $mainFont;
+  color: $textColor;
+  &.bold {
+    font-weight: 700;
+  }
+  &.sm {
+    font-size: 22px;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    color: #aba8af;
+  }
+}
+h6 {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: $mainFont;
+  font-weight: 500;
+  color: $textColor;
+  &.big {
+    font-size: 20px;
+    line-height: 26px;
+    color: #7a787d;
+    font-weight: 400;
+  }
+}
+p {
+  font-size: 15px;
+  line-height: 27px;
+  color: $textColor;
+  font-weight: 400;
+  font-family: $mainFont;
+  &.big {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+  }
+  &.xbig {
+    font-family: $calibri;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 52px;
+    color: $textColor2;
+    a {
+      color: $blue;
+      @include transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    strong {
+      font-weight: 700;
+    }
+    span {
+      font-style: italic;
+    }
+  }
+  &.extra {
+    font-family: $calibri;
+    font-size: 26px;
+    line-height: 52px;
+    font-weight: 400;
+    color: $textColor;
+    a {
+      color: $blue;
+      @include transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    strong {
+      font-weight: 700;
+    }
+    span {
+      font-style: italic;
+    }
+  }
+  &.uniq {
+    font-family: $calibri;
+    font-weight: 400;
+    color: $textColor;
+    font-size: 25px;
+    line-height: 54px;
+    a {
+      color: $blue;
+      @include transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    strong {
+      font-weight: 700;
+    }
+    span {
+      font-style: italic;
+    }
+  }
+  &.extrasm {
+    font-family: $calibri;
+    font-size: 24px;
+    line-height: 47px;
+    font-weight: 400;
+    color: rgba($color: #0d1c2e, $alpha: 0.79);
+    a {
+      color: $blue;
+      @include transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    strong {
+      font-weight: 700;
+    }
+    span {
+      font-style: italic;
+    }
+  }
+  &.uniqsm {
+    font-family: $calibri;
+    font-weight: 400;
+    color: #7a7a7a;
+    font-size: 20px;
+    line-height: 35px;
+    a {
+      color: $blue;
+      @include transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    strong {
+      font-weight: 700;
+    }
+    span {
+      font-style: italic;
+    }
+  }
+}
+main {
+  &.pt {
+    padding-top: 194px;
+    padding-bottom: 50px;
+  }
+}
+body {
+  &.active {
+    overflow: hidden;
+  }
+}
+.button {
+  display: block;
+  @include transition;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &:hover {
+    opacity: 0.8;
+  }
+  &.primary {
+    white-space: nowrap;
+    width: 100%;
+    max-width: 282px;
+    padding: 22px 0;
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: $white;
+    font-weight: 500;
+    font-family: $mainFont;
+    border-radius: 5px;
+    background: linear-gradient(
+      180deg,
+      rgba(251, 187, 12, 1) 0%,
+      rgba(248, 111, 0, 1) 100%
+    );
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.07);
+    &.big {
+      padding: 30px 0;
+      font-size: 28px;
+    }
+  }
+  &.secondary {
+    white-space: nowrap;
+    width: 100%;
+    max-width: 282px;
+    padding: 31px 0;
+    font-size: 22px;
+    line-height: 1;
+    color: rgba($color: #303030, $alpha: 0.76);
+    font-weight: 400;
+    font-family: $mainFont;
+    border-radius: 5px;
+    background: $white;
+    border: 2px solid #f2f2f3;
+    &.phone {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: $calibri;
+      font-size: 42px;
+      letter-spacing: -0.04em;
+      color: #525051;
+      font-weight: 700;
+      padding: 21px 0;
+      svg {
+        width: 29px;
+        height: 29px;
+        margin-right: 40px;
+        color: #525051;
+        margin-bottom: -4px;
+      }
+      &.blue {
+        color: $blue;
+        font-size: 38px;
+        font-weight: 400;
+        svg {
+          width: 26px;
+          height: 26px;
+          color: $blue;
+        }
+      }
+    }
+  }
+  &.link {
+    font-family: $calibri;
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: 700;
+    color: $blue;
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  &.bluebt {
+    width: 100%;
+    font-size: 38px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    font-family: $mainFont;
+    font-weight: 700;
+    padding: 64px 0;
+    color: $white;
+    background: linear-gradient(180deg, #3d93e0 0%, #2d7ee3 100%);
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.07);
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .button {
+      max-width: unset;
+      &.link {
+        width: calc(52% - 8px);
+      }
+      &.primary {
+        width: calc(48% - 8px);
+        padding: 26px 0;
+      }
+      &.secondary {
+        width: calc(52% - 8px);
+        padding: 19px 0;
+      }
+    }
+  }
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes sticky {
+  from {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes sticky2 {
+  from {
+    transform: translateY(-60px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes float1 {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
