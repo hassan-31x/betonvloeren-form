@@ -128,10 +128,8 @@ const FormModal = () => {
         ...formData, // Spread all form data into the document
       });
 
-      console.log("Form data posted to Sanity:", response);
       // Handle success if needed
     } catch (error) {
-      console.error("Error posting form data to Sanity:", error);
       // Handle error if needed
     }
   };
@@ -163,13 +161,11 @@ const FormModal = () => {
 
       // Handle success response
       const data = await response.json();
-      console.log("Contact stored successfully:", data);
     } catch (error) {
       console.error("Error storing contacts:");
       // Handle error
     }
   };
-  console.log(errors)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
